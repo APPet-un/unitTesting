@@ -39,7 +39,7 @@ class CursoSpec extends Specification {
     }
     def "test creditos"() {
         expect:
-        curso1.nombre.length() <= 50
-        curso1.nombre.length() >= 3
+        !(curso1.creditos <= 5)
+        curso1.creditos >= 1
     }
 }
