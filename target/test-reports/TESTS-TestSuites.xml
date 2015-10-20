@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="jhh-2pc" id="0" name="Filter" package="org.junit.runner.manipulation" tests="1" time="0.148" timestamp="2015-10-20T04:06:07">
+  <testsuite errors="0" failures="0" hostname="jhh-2pc" id="0" name="CursoSpec" package="testingpractice" tests="4" time="3.083" timestamp="2015-10-20T05:36:23">
       <properties />
 
-      <testcase classname="org.junit.runner.manipulation.Filter" name="initializationError" time="0.139">
-          <error message="No tests found matching grails test target pattern filter from org.junit.runner.Request$1@12e483d2" type="java.lang.Exception">java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@12e483d2
-</error>
+      <testcase classname="testingpractice.CursoSpec" name="test nombre null" time="2.892" />
 
-      </testcase>
+      <testcase classname="testingpractice.CursoSpec" name="test codigo repetido" time="0.046" />
 
-      <system-out><![CDATA[--Output from initializationError--
+      <testcase classname="testingpractice.CursoSpec" name="test logitud nombre" time="0.041" />
+
+      <testcase classname="testingpractice.CursoSpec" name="test creditos" time="0.031" />
+
+      <system-out><![CDATA[--Output from test nombre null--
+--Output from test codigo repetido--
+--Output from test logitud nombre--
+--Output from test creditos--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from initializationError--
+      <system-err><![CDATA[--Output from test nombre null--
+--Output from test codigo repetido--
+--Output from test logitud nombre--
+--Output from test creditos--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="jhh-2pc" id="1" name="EstudianteSpec" package="testingpractice" tests="1" time="0.316" timestamp="2015-10-20T05:36:26">
+      <properties />
+
+      <testcase classname="testingpractice.EstudianteSpec" name="semestre constrain" time="0.306" />
+
+      <system-out><![CDATA[--Output from semestre constrain--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from semestre constrain--
 ]]></system-err>
 
   </testsuite>
